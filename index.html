@@ -69,7 +69,7 @@
 
       var marker = L.marker([row.Latitude, row.Longitude], {
         opacity: 1
-      }).bindPopup(row.Entreprise<br>row.NumérodeSIRET);
+      }).bindPopup(row.Entreprise+"<br>"+row.SIRET);
       
       marker.addTo(map);
     }
